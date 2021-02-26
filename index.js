@@ -14,4 +14,4 @@ app.use(bodyParser.json());
 
 app.listen(process.env.PORT, () => console.log(`Server running on Port: ${process.env.PORT}`));
 
-require('./src/message');
+require('./src/message')();
